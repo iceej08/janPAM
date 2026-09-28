@@ -18,14 +18,12 @@ class MainActivity2 : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            JanPAM1Theme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
-                }
+            // HalamanUtama()
+            // ContactUsScreen()
+            ProfilMahasiswa()
             }
         }
     }
-}
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
