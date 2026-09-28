@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">janPAM1</string>
+    <string name="title_activity_main5">MainActivity5</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main4">MainActivity4</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

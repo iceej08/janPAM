@@ -12,9 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JanPAM1">
         <activity
-            android:name=".MainActivity"
-            android:exported="true"
+            android:name=".praktikum1.MainActivity"
+            android:exported="false"
             android:label="@string/app_name"
+            android:theme="@style/Theme.JanPAM1"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".praktikum5.MainActivity5"
+            android:exported="true"
+            android:label="@string/title_activity_main5"
             android:theme="@style/Theme.JanPAM1"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -23,6 +29,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".praktikum1.MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.JanPAM1"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".praktikum4.MainActivity4"
+            android:exported="false"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/Theme.JanPAM1"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".praktikum3.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.JanPAM1"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
